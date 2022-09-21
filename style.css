@@ -18,7 +18,7 @@
 
 .popup{
     position: fixed;
-    top: 47%;
+    top: 44%;
     opacity: 0;
     left: 50%;
     transform: translate(-50%,-50%);
