@@ -12,3 +12,9 @@ popupCloseBtn.addEventListener("click" , function(){
     document.querySelector(".popup").setAttribute("style" , " opacity: 0; ");
     document.querySelector(".popup-overlay").setAttribute("style" , "display: none;");
 });
+
+var Bdy = document.body;
+    Bdy.addEventListener("click" , function(){
+        document.querySelector(".popup").setAttribute("style" , "opacity: 0;");
+        document.querySelector(".popup-overlay").setAttribute("style" , "display: none;");
+    });

@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 
+.bg-image{
+    background: url(nature.jpg) no-repeat center center/cover ;
+    height: 100vh;
+}
+
 .popup-overlay{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: rgba(0,0,0);     */
-    background: url(nature.jpg) no-repeat center center/cover ;
+    background: rgba(0,0,0);    
     opacity: 0.5;
     display: none;
 }
@@ -27,7 +31,9 @@
     font-family: 'Times New Roman', Times, serif;
     padding: 25px 25px;
     transition: 0.6s linear;
-    box-shadow: 5px 5px 5px black , 5px 5px 5px black inset;
+    /* box-shadow: 5px 5px 5px black , 5px 5px 5px black inset; */
+    background: linear-gradient(#ffba30,#f19a9a);
+    border-radius: 14px;
     font-weight: bold;
 
 }
